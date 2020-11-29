@@ -15,7 +15,7 @@ class CreateTodo extends Component {
     this.props.addTodo(this.state)
     this.setState({text: ''})
   }
-
+//hi
   handleChange(event) {
     this.setState({
       text: event.target.value
